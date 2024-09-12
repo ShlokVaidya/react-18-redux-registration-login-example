@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
@@ -45,7 +44,7 @@ function Login() {
                         {isSubmitting && <span className="spinner-border spinner-border-sm me-1"></span>}
                         Login
                     </button>
-                    <Link to="../register" className="btn btn-link">Register</Link>
+                    
                 </form>
             </div>
         </div>
